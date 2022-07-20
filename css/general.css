@@ -1,0 +1,48 @@
+body {
+    font-family: "DIN Pro", sans-serif;
+    padding: 50px 0;
+    color: #333333;
+}
+div {
+    max-width:1200px;
+    margin: 0 auto;
+}
+a,
+a:focus,
+a:visited{
+    color: darkslategrey;
+    text-decoration: none;
+    border-bottom:1px solid transparent;
+    transition: all ease-in 200ms;
+}
+a:hover {
+    border-bottom-color:black;
+    color: black;
+}
+#primary_photo {
+    float: right;
+    margin: 0 0 15px 15px;
+}
+.experience {
+    color: gray;
+}
+.skill {
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    background: lightgray;
+    border-radius: 5px;
+}
+#job-name {
+    border-top:solid lightgray 1px;
+    margin-top:40px;
+    padding-top:20px
+}
+h3 {
+    font-weight: 400;
+    color: gray;
+    font-size: 22px;
+}
+td {
+    vertical-align: top;
+}
